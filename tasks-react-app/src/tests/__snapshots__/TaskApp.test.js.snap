@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskApp component test should display a snapshot correctly 1`] = `
+<Fragment>
+  <h1>
+    Tasks APP
+  </h1>
+  <AddTask
+    handleInputChange={[Function]}
+    handleSubmit={[Function]}
+    values={
+      Object {
+        "desc": "",
+        "done": false,
+        "title": "",
+      }
+    }
+  />
+</Fragment>
+`;

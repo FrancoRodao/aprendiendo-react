@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Register screen tests should match to snapshot 1`] = `
+Array [
+  <h3
+    className="auth__title "
+  >
+    Register
+  </h3>,
+  <form
+    autoComplete="off"
+    onSubmit={[Function]}
+  >
+    <input
+      autoComplete="off"
+      className="auth__input "
+      name="name"
+      placeholder="Name"
+      type="text"
+    />
+    <input
+      autoComplete="on"
+      className="auth__input "
+      name="email"
+      placeholder="Email"
+      type="email"
+    />
+    <input
+      className="auth__input 
+                        "
+      name="password"
+      placeholder="Password"
+      type="password"
+    />
+    <input
+      className="auth__input "
+      name="confirmPassword"
+      placeholder="Confirm password"
+      type="password"
+    />
+    <button
+      className="btn btn-primary btn-block"
+      disabled={false}
+      type="submit"
+    >
+      Register
+    </button>
+    <hr
+      className="mb-5"
+    />
+    <a
+      className="link"
+      href="/login"
+      onClick={[Function]}
+    >
+      Already registered?
+    </a>
+  </form>,
+]
+`;

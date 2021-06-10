@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test GifApp component "app container" ) should display snapshot correctly 1`] = `
+<Fragment>
+  <h2>
+    Gif App
+  </h2>
+  <hr />
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ol>
+    <GifGrid
+      category="testing"
+      key="testing"
+    />
+  </ol>
+</Fragment>
+`;

@@ -1,0 +1,27 @@
+{
+  "name": "aprendiendo-react",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "counter-react-app",
+    "gifs-react-app",
+    "heroes-react-app",
+    "tasks-react-app",
+    "journal-react-app"
+  ],
+  "description": "",
+  "scripts": {
+    "journal": "npm start --workspace=journal-react-app",
+    "journal:tests": "npm run test --workspace=journal-react-app",
+    "counter": "npm start --workspace=counter-react-app",
+    "gifs": "npm start --workspace=gifs-react-app",
+    "heroes": "npm start --workspace=heroes-react-app",
+    "tasks": "npm start --workspace=tasks-react-app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "npm": "7.9.0"
+  }
+}
